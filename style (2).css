@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+
+}
+
+container {
+    background-color: ghostwhite;
+}
+
+.navbar {
+    padding: 0!important;
+    width: 100%;
+}
+
+.poster {
+    max-width: 25%;
+    margin-left: 50%;
+    margin-top: -19%;
+}
+
+.top {
+    height: 880px;
+    width: 100%;
+}
+
+
+.carousel-inner {
+    height: 0;
+    padding-bottom: 60%; /* this sets carousel aspect ratio (4:1 here) */
+}
+
+.carousel-item {
+    position: absolute !important; /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-item img {
+    height: 100%; /* Bootstrap handles width already */
+    object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+}
+
+.content p {
+    margin-bottom: 50px;
+}
+
